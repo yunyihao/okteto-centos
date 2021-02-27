@@ -1,0 +1,11 @@
+
+services:
+  centos:
+    public: true
+    image: tutum/centos:latest
+    replicas: 1
+    ports:
+      - 22
+    resources:
+      cpu: 2000m
+      memory: 4096Mi
